@@ -1,0 +1,19 @@
+{
+  "name": "angex",
+  "version": "1.0.0",
+  "description": "The third try of the AngularJS project repository.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinedsel/angex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinedsel/angex/issues"
+  },
+  "homepage": "https://github.com/vinedsel/angex#readme"
+}
