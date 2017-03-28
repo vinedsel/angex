@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/vinedsel/angex/issues"
   },
-  "homepage": "https://github.com/vinedsel/angex#readme"
+  "homepage": "https://github.com/vinedsel/angex#readme",
+  "devDependencies": {
+    "@types/angular": "^1.6.10"
+  }
 }
