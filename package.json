@@ -19,5 +19,8 @@
   "homepage": "https://github.com/vinedsel/angex#readme",
   "devDependencies": {
     "@types/angular": "^1.6.10"
+  },
+  "dependencies": {
+    "angular-ui-router": "^0.4.2"
   }
 }
