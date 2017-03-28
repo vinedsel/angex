@@ -1,0 +1,17 @@
+{
+  "name": "angex",
+  "description": "The third try of the AngularJS project repository.",
+  "main": "app.js",
+  "authors": [
+    "Raymond Gregory <vinedsel@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/vinedsel/angex",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
