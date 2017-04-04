@@ -6,9 +6,9 @@
     <title>AngularJS</title>
 </head>
 
-<body>
+<body ng-controller="homeController as vm">
     <input type="text" ng-model="message" /> <br />
-    <h1>{{message}}</h1>
+    <h1>{{vm.message}}</h1>
 
     <script type="text/javascript" src="/node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script type="text/javascript" src="/bower_components/angular/angular.js"></script>

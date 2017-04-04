@@ -1,4 +1,11 @@
-var App;
-(function (App) {
+var MyApp;
+(function (MyApp) {
     angular.module("MyApp", []);
-})(App || (App = {}));
+    var HomeController = (function () {
+        function HomeController() {
+            this.message = "Welcome!";
+        }
+        return HomeController;
+    }());
+    angular.module("MyApp").controller("homeController", HomeController);
+})(MyApp || (MyApp = {}));
