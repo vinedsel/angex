@@ -3,7 +3,7 @@ var MyApp;
     angular.module("MyApp", []);
     var HomeController = (function () {
         function HomeController() {
-            this.message = "Welcome!";
+            this.friends = ["Cartman", "Kyle", "Timmy", "Stan", "Kenny"];
         }
         return HomeController;
     }());

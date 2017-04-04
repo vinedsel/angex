@@ -5,7 +5,11 @@ namespace MyApp {
 
     class HomeController {
 
-        public message = "Welcome!";
+        public friends;
+
+        constructor() {
+          this.friends=["Cartman", "Kyle", "Timmy", "Stan", "Kenny"];
+        }
     }
 
     angular.module("MyApp").controller("homeController", HomeController);
