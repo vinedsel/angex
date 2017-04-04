@@ -6,13 +6,17 @@
     <title>AngularJS</title>
 </head>
 
-<body ng-controller="homeController as vm">
-    <ul>
-      <li ng-repeat="friend in vm.friends">{{friend}}</li>
-    </ul>
+<body ng-controller="FavoriteController as favorite">
+    <h2>What is your favorite color?</h2>
+    <button ng-click="favorite.pickColor('red')">Red</button>
+    <button ng-click="favorite.pickColor('green')">Green</button>
+    <button ng-click="favorite.pickColor('blue')">Blue</button>
 
-    <script type="text/javascript" src="/node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
-    <script type="text/javascript" src="/bower_components/angular/angular.js"></script>
+    <h2>Your favorite color is:</h2>
+    <output>{{favorite.color}}</output>
+
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="controller.js"></script>
     <script type="text/javascript" src="/app.js"></script>
 </body>
 
