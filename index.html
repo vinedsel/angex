@@ -4,6 +4,12 @@
 <head>
     <meta charset="utf-8">
     <title>AngularJS</title>
+    <script type="text/javascript" src="/node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="/controller.js"></script>
+    <script type="text/javascript" src="/app.js"></script>
+    <script type="text/javascript" src="/node_modules/angular-ui-router/release/angular-ui-router.min.js">
+
+    </script>
 </head>
 
 <body ng-controller="FavoriteController as favorite">
@@ -15,12 +21,7 @@
     <h2>Your favorite color is:</h2>
     <output>{{favorite.color}}</output>
 
-    <script type="text/javascript" src="/node_modules/angular/angular.min.js"></script>
-    <script type="text/javascript" src="/controller.js"></script>
-    <script type="text/javascript" src="/app.js"></script>
-    <script type="text/javascript" src="/node_modules/angular-ui-router/release/angular-ui-router.min.js">
 
-    </script>
 </body>
 
 </html>
